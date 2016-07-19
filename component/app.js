@@ -1,7 +1,7 @@
-var express = require('express');
-var path = require('path');
-
-var app = express();
+'use strict';
+let express = require('express');
+let path = require('path');
+let app = express();
 
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');

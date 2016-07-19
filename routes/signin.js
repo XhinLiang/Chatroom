@@ -1,5 +1,5 @@
 'use strict'
-var users = require('../models/users');
+var users = require('../component/users');
 module.exports = function(app) {
     app.get('/signin', function(req, res) {
         res.sendfile('./views/signin.html');

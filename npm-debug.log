@@ -1,7 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
-2 info using npm@2.15.5
-3 info using node@v4.4.6
+2 info using npm@2.15.8
+3 info using node@v4.4.7
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info prestart Chat@0.1.1
 6 info start Chat@0.1.1
@@ -19,10 +19,10 @@
 9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 10 verbose pkgid Chat@0.1.1
 11 verbose cwd /home/xhinliang/code/NodeJSProjects/dev_2016_6/Chatroom
-12 error Linux 4.2.0-41-generic
+12 error Linux 4.2.0-42-generic
 13 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
-14 error node v4.4.6
-15 error npm  v2.15.5
+14 error node v4.4.7
+15 error npm  v2.15.8
 16 error code ELIFECYCLE
 17 error Chat@0.1.1 start: `node app.js`
 17 error Exit status 1

@@ -1,7 +1,8 @@
-'use strict'
-var users = require('./users')();
-var socketio = require('socket.io');
-module.exports = function(server) {
+'use strict';
+let users = require('./users')();
+let socketio = require('socket.io');
+
+module.exports.route = function(server) {
     let io = socketio.listen(server);
     io.sockets.on('connection', function(socket) {
         // 有人上线

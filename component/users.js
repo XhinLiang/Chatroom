@@ -1,5 +1,6 @@
-'use strict'
-var users = {};
+'use strict';
+let users = {};
+
 module.exports = function() {
     return users;
 };
