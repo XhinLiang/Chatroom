@@ -1,3 +1,4 @@
+'use strict';
 var app = require('./component/app');
 var router = require('./routes/router');
 var http = require('http');
